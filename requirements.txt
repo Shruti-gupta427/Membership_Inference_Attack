@@ -1,0 +1,12 @@
+# Install PyTorch + torchvision FIRST (see README). They are intentionally not listed here
+# so pip never swaps a CUDA build for a CPU-only one.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126   # NVIDIA GPU
+#   pip install torch torchvision                                                       # CPU only
+opacus
+opt-einsum
+scikit-learn
+matplotlib
+pandas
+scipy
+numpy
+jupyter

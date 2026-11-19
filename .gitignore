@@ -1,0 +1,17 @@
+
+.venv/
+
+data/
+*.tar.gz
+*.zip
+-
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.pkl
+*.npy
+*.npz
